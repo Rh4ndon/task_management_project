@@ -24,16 +24,31 @@ Provide a brief description of your project.
 
    ```
 
-3. Install the required dependencies:
+3. Create and activate the virtual environment:
 
-bash
-pip install -r requirements.txt
+macOS/Linux:
 
-4. Run the development server:
+    python -m venv env
+    source venv/bin/activate
+
+Windows:
+
+    python -m venv env
+    .\venv\Scripts\activate
+
+4. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```
+
+5. Run the development server:
 
    ```bash
    python manage.py runserver
 
+
    ```
 
-5. Open your browser and go to http://127.0.0.1:8000/ to view the project.
+6. Open your browser and go to http://127.0.0.1:8000/ to view the project.
