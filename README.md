@@ -1,8 +1,8 @@
-# Project Title
+# Task Management Project
 
 ## Description
 
-Provide a brief description of your project.
+Django Practice
 
 ## Requirements
 
